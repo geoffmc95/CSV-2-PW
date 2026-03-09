@@ -1,0 +1,10 @@
+ID,Work Item Type,Title,Test Step,Step Action,Step Expected,Area Path,Assigned To,State
+106,Test Case,Add product to wishlist,1,Launch the URL https://demowebshop.tricentis.com/ in the browser.,Homepage loads successfully.,,,
+,,,2,"Provide valid login credentials (Email: johnsmith@test.com, Password: xxx) and log in.",User logs into the application successfully.,,,
+,,,3,Click Electronics link in the left-most category menu.,Electronics category page opens successfully.,,,
+,,,4,Click Cell phones link.,Cell phone products list appears on the screen.,,,
+,,,5,Click Smartphone product link.,Product details page opens successfully.,,,
+,,,6,Click Add to wishlist button.,Product is added to wishlist successfully.,,,
+,,,7,Click Wishlist link in the top-right corner of the page.,Wishlist page opens successfully.,,,
+,,,8,Verify the selected product appears in the wishlist.,The system displays the added product in the wishlist.,,,
+,,,9,Click Logout link in the top-right corner of the page.,User logs out successfully.,,,

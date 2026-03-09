@@ -1,0 +1,7 @@
+ID,Work Item Type,Title,Test Step,Step Action,Step Expected,Area Path,Assigned To,State
+109,Test Case,Verify error message for invalid login,1,Launch the URL https://demowebshop.tricentis.com/ in the browser.,Homepage loads successfully.,,,
+,,,2,Click Log in link in the top-right corner of the page.,Login page opens successfully.,,,
+,,,3,Enter Email (invaliduser@test.com) in Email field.,Email value is entered successfully.,,,
+,,,4,Enter Password (xxx) in Password field.,Password value is entered successfully.,,,
+,,,5,Click Log in button.,Login request is submitted successfully.,,,
+,,,6,Verify the error message is displayed.,The system displays a login failure error message.,,,

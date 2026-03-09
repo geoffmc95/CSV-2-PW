@@ -1,0 +1,7 @@
+ID,Work Item Type,Title,Test Step,Step Action,Step Expected,Area Path,Assigned To,State
+102,Test Case,Search product after login,1,Launch the URL https://demowebshop.tricentis.com/ in the browser.,Homepage loads successfully.,,,
+,,,2,"Provide valid login credentials (Email: johnsmith@test.com, Password: xxx) and log in.",User logs into the application successfully.,,,
+,,,3,Enter product name (Laptop) in the search field at the top center of the page.,Search value is entered successfully.,,,
+,,,4,Click Search button.,Search results are displayed.,,,
+,,,5,Verify product search results are displayed.,The system displays a list of products matching the search keyword.,,,
+,,,6,Click Logout link in the top-right corner of the page.,User logs out successfully.,,,

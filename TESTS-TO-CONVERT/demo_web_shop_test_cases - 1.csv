@@ -1,0 +1,12 @@
+ID,Work Item Type,Title,Test Step,Step Action,Step Expected,Area Path,Assigned To,State
+101,Test Case,Register a new user,1,Launch the URL https://demowebshop.tricentis.com/ in the browser.,Homepage loads successfully.,,,
+,,,2,Click Register link in the top-right corner of the page.,Registration page opens successfully.,,,
+,,,3,Select Male radio button.,Male option is selected.,,,
+,,,4,Enter First Name (John) in First Name field.,First name is entered successfully.,,,
+,,,5,Enter Last Name (Smith) in Last Name field.,Last name is entered successfully.,,,
+,,,6,Enter Email (johnsmith@test.com) in Email field.,Email is entered successfully.,,,
+,,,7,Enter Password (xxx) in Password field.,Password is entered successfully.,,,
+,,,8,Enter Confirm Password (xxx) in Confirm Password field.,Confirm password is entered successfully.,,,
+,,,9,Click Register button.,Registration request is submitted successfully.,,,
+,,,10,Verify confirmation message 'Your registration completed' appears on screen.,The system displays the registration success message.,,,
+,,,11,Click Logout link in the top-right corner of the page.,User logs out successfully.,,,

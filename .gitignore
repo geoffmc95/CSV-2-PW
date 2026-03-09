@@ -1,0 +1,15 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+# Generated artifacts (ignore contents, keep folders via .gitkeep)
+/specs/*
+!/specs/.gitkeep
+/e2e/*
+!/e2e/.gitkeep
+/TESTS-TO-CONVERT/parsed/*
+!/TESTS-TO-CONVERT/parsed/.gitkeep

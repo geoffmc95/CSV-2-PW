@@ -1,0 +1,9 @@
+ID,Work Item Type,Title,Test Step,Step Action,Step Expected,Area Path,Assigned To,State
+104,Test Case,Add product to shopping cart,1,Launch the URL https://demowebshop.tricentis.com/ in the browser.,Homepage loads successfully.,,,
+,,,2,"Provide valid login credentials (Email: johnsmith@test.com, Password: xxx) and log in.",User logs into the application successfully.,,,
+,,,3,Click Books link in the left-most category menu.,Books category page opens successfully.,,,
+,,,4,Click Computing and Internet product link.,Product details page opens successfully.,,,
+,,,5,Click Add to cart button.,Product is added to the shopping cart.,,,
+,,,6,Click Shopping cart link in the top-right corner of the page.,Shopping cart page opens successfully.,,,
+,,,7,Verify the selected product appears in the shopping cart.,The system displays the added product in the cart.,,,
+,,,8,Click Logout link in the top-right corner of the page.,User logs out successfully.,,,

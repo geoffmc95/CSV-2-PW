@@ -1,0 +1,8 @@
+ID,Work Item Type,Title,Test Step,Step Action,Step Expected,Area Path,Assigned To,State
+103,Test Case,Browse products through category,1,Launch the URL https://demowebshop.tricentis.com/ in the browser.,Homepage loads successfully.,,,
+,,,2,"Provide valid login credentials (Email: johnsmith@test.com, Password: xxx) and log in.",User logs into the application successfully.,,,
+,,,3,Click Computers link in the left-most category menu.,Computers category page opens successfully.,,,
+,,,4,Click Desktops link.,Desktop products list appears on the screen.,,,
+,,,5,Click Build your own computer product link.,Product details page opens successfully.,,,
+,,,6,Verify product details are displayed on the page.,The system displays product information successfully.,,,
+,,,7,Click Logout link in the top-right corner of the page.,User logs out successfully.,,,

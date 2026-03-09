@@ -1,0 +1,8 @@
+ID,Work Item Type,Title,Test Step,Step Action,Step Expected,Area Path,Assigned To,State
+105,Test Case,Update quantity in shopping cart,1,Launch the URL https://demowebshop.tricentis.com/ in the browser.,Homepage loads successfully.,,,
+,,,2,"Provide valid login credentials (Email: johnsmith@test.com, Password: xxx) and log in.",User logs into the application successfully.,,,
+,,,3,Click Shopping cart link in the top-right corner of the page.,Shopping cart page opens successfully.,,,
+,,,4,Change quantity value to 2 in the quantity field.,Quantity value is updated successfully.,,,
+,,,5,Click Update shopping cart button.,Shopping cart updates successfully.,,,
+,,,6,Verify the updated quantity is displayed for the product.,The system displays the updated product quantity.,,,
+,,,7,Click Logout link in the top-right corner of the page.,User logs out successfully.,,,
