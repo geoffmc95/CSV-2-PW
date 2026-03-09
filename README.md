@@ -20,13 +20,12 @@ CSV/JSON → parse script → normalized JSON → planner → plan → generator
 
 - [Node.js](https://nodejs.org/) v18+
 - [VS Code](https://code.visualstudio.com/) with [GitHub Copilot](https://github.com/features/copilot) (Pro recommended)
-- Agents should use **Claude Sonnet 4** at minimum
+- Agents should use **Claude Sonnet 4** at minimum (highly recommend to use Github Copilot Plus/Pro as well) 
 
 ## Setup
 
 ```bash
 git clone https://github.com/geoffmc95/CSV-2-PW.git
-cd CSV-2-PW
 npm init playwright@latest
 npx tsc --init
 npx playwright init-agents --loop vscode
